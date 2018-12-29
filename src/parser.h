@@ -7,7 +7,7 @@
 
 namespace gpr {
     
-  block parse_tokens(const std::vector<string>& tokens);
+  block parse_tokens(const std::vector<std::string>& tokens);
   std::vector<std::string> lex_block(const std::string& block_text);
 
   gcode_program parse_gcode(const std::string& program_text);
